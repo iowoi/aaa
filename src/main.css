@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+button {
+    outline: unset;
+}
+
+input[type="text"] {
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    color: rgb(73, 80, 87);
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    padding: 0rem 0.375rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-image: initial;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="password"] {
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    color: rgb(73, 80, 87);
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    padding: 0rem 0.375rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-image: initial;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="checkbox"] {
+    display: none;
+    font-size: 14px;
+    height: 35px;
+    color: rgb(73, 80, 87);
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    padding: 0rem 0.375rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-image: initial;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+select {
+    font-size: 12px;
+    height: 35px;
+    position: relative;
+    top: -0.5px;
+    padding: 0.15rem 1.75rem 0.15rem 0.375rem;
+    display: inline-block;
+    max-width: 100%;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff no-repeat right 0.5rem center;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 284.929 284.929' style='enable-background:new 0 0 284.929 284.929;' xml:space='preserve'%3e%3cg%3e%3cg%3e%3cpath d='M282.082,76.511l-14.274-14.273c-1.902-1.906-4.093-2.856-6.57-2.856c-2.471,0-4.661,0.95-6.563,2.856L142.466,174.441 L30.262,62.241c-1.903-1.906-4.093-2.856-6.567-2.856c-2.475,0-4.665,0.95-6.567,2.856L2.856,76.515C0.95,78.417,0,80.607,0,83.082 c0,2.473,0.953,4.663,2.856,6.565l133.043,133.046c1.902,1.903,4.093,2.854,6.567,2.854s4.661-0.951,6.562-2.854L282.082,89.647 c1.902-1.903,2.847-4.093,2.847-6.565C284.929,80.607,283.984,78.417,282.082,76.511z' data-original='%23000000' class='active-path' data-old_color='%23848282' fill='%23848484'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+    background-size: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 212, 218);
+    border-radius: 0.25rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+}
+
+.main-form {
+    padding: 10px 30px 10px 30px;
+}
+.main-form .img-uploader input {
+    width: calc(100% - 85px);
+}
+
+.main-form .form-control input {
+    width: 95%;
+}
+
+.main-form .form-control fileNames {
+    width: 75%;
+}
+
+.form-control {
+    padding: 5px 0px 5px 0px;
+}
+
+.form-control input {
+    width: calc(100% - 12px);
+}
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+@media(max-width:320px){
+    .ReactModal__Content {
+        width: 280px !important;
+    }
+}

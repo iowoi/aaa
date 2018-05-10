@@ -1,0 +1,23 @@
+.banner-slide {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.banner-slide .slick-slide {
+    margin-bottom: -5px;
+}
+.banner-slide .slick-dots {
+    bottom: 10px;
+}
+.banner-slide .slick-slide img{
+    width: 100%;
+}
+.banner-slide .slick-dots li button:before {
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .banner-slide {
+        border-radius: 0px;
+    }
+}
